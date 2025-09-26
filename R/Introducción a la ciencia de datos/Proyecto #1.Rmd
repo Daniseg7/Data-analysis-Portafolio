@@ -1,0 +1,309 @@
+---
+title: "Proyecto #1"
+author: "Daniel Segura Cruz"
+date: "22/1/2025"
+output: 
+  html_document:
+    toc: true #tabla de contenido
+    toc_depth: 3 #Niveles de la tabla de contenido
+    toc_float: true #Si la tabla de contenido está presente en todo el documento
+    collapsed: true #Solo se ve la sección principal de cada sección del documento
+    smooth_scroll: true #Ver la tabla de contenido en cada sección
+    theme: journal #tema del documento
+    highlight: kate #Como se verá el código
+    df_print: paged #Como se verán los dataframes
+    code_folding: show #El lector tiene la opción de ver solo los resultados o también las líneas de código.
+---
+  
+  
+# Práctica #1: Markdown  
+
+## Introducción a la Ciencia de Datos  
+La **ciencia de datos** es un campo que combina estadísticas, análisis de datos, aprendizaje automático y otras técnicas para extraer conocimiento útil de datos.
+Incluye conceptos importantes como análisis exploratorio de datos, **modelos predictivos** y ~~sesgo de datos~~.  
+
+A continuación, exploraremos algunos aspectos clave de la ciencia de datos.  
+
+---  
+# Ciencia de Datos en química y matemática  
+En el análisis de datos en áreas como química, se utilizan expresiones como:  
+* Dióxido de Carbono:CO~2~,Cloruro de Calcio:CaCl~2~,Ácido Sulfúrico:H~2~SO~4~,Amoníaco:NH~3~,Ácido Acético:CH~3~COOH.  
+
+* Y otras como Cloruro de Hidrógeno: HCl, Óxido de Magnesio: MgO, Cloruro de Sodio: Nacl.  
+
+En el análisis de datos en áreas como matemática, se utilizan expresiones como:  
+
+* e^x^,a^x^,f(x) y otras expresiones con superíndices.  
+
+***
+  
+# Procesos del análisis de datos  
+Para una visión general de la ciencia de datos, puedes visitar el articulo sobre  
+
+[Ciencia de Datos en Wikipedia](https://es.wikipedia.org/wiki/Ciencia_de_datos)  
+Aquí tienes una imagen que ilustra el proceso de análisis de datos:  
+
+<div style="text-align: center;">
+![](Procesos_de_Análisis_de_Datos.png){width=30%}</div>
+
+
+
+> "La ciencia de datos es el campo que proporciona las herramientas y los métodos para extraer conocimiento valioso a partir de grandes volúmenes de datos."  
+**Dr.John Doe**  
+
+Pasos en un proyecto de ciencia de datos:  
+
+1. Recolección de datos  
+   a. Identificación de fuentes de datos  
+   b. Extracción de datos  
+   c. Almacenamiento de datos  
+
+2. Limpieza y preparación de datos  
+   a. Eliminación de duplicados  
+   b. Manejo de valores faltantes  
+   c. Transformación y normalización de datos  
+
+3. Análisis exploratorio de datos  
+   a. Análisis descriptivo  
+   b. Visualización de datos  
+   c. Identificación de patrones y tendencias  
+
+4. Construcción de modelos  
+   a. Selección de características  
+   b. Entrenamiento del modelo  
+   c. Ajuste de hiperparámetros  
+
+5. Evaluación de modelos  
+   a. Validación cruzada  
+   b. Evaluación de métricas (precisión, recall, F1-score, etc.)  
+   c. Comparación de modelos  
+
+6. Implementación y monitoreo  
+   a. Implementación en entorno de producción  
+   b. Monitoreo del rendimiento del modelo  
+   c. Actualización y mantenimiento del modelo 
+   
+***  
+A continuación de muestra un ejemplo de una tabla con diferentes tipos de datos analizados:  
+
+Tipo de Datos          |  Descripción                     | Ejemplo
+:------                |  :------                         | :------
+Datos Estructurados    |  Datos Organizados en tablas     |Base de Datos SQL
+Datos No Estructurados |  Datos sin una estructura fija   |Textos,imágenes
+Datos SemiEstructurados|  Datos con una estructura parcial|JSON,XML  
+
+# Práctica #2: Código Matemático
+1. $a^2+b^2=c^2$  
+
+2. $\displaystyle\int_{0}^{ \infty} e^{x-2}dx = \frac{\sqrt\pi}{2}$ 
+
+3. $\lim_{x \to \infty} \frac{1}{x} = 0$  
+
+4. $\sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6}$ 
+
+5. $f(x)= \left\{\begin{matrix}x^2 & \text{si } x \geq 0\\-x & \text{si } x < 0\end{matrix}\right.$  
+
+6. $\sqrt[n]{x}=x^{1/n}$
+
+7. $cos^{2}\theta  +sin^{2}\theta =1$  
+
+8. $\binom{n}{k} = \frac{n!}{k!(n-k)!}$  
+
+9. $e^{i\pi}+1=0$  
+
+10. $\vec{v} =\begin{bmatrix}v_x \\v_y \\v_z\end{bmatrix}$  
+
+11. $\det(A) = \sum_{\sigma \in S_n} (\mathrm{sgn}\, \sigma) \prod_{i=1}^n a_{i, \sigma(i)}$  
+
+12. $\nabla \cdot \vec{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z}$  
+
+13. $P(A \cap B) = P(A) \cdot P(B)$  
+
+14. $\begin{pmatrix}a + b & x - y & z^2 \\2i & n \cdot p & \sqrt{q} \\\sin\theta & e^\lambda & 3x +1 \end{pmatrix}$  
+
+15. $(\forall x \in \mathbb{R})(\exists y \in \mathbb{R})(x + y = 0)$  
+
+16. $\frac{d}{dx} \left( x^n \right) = n x^{n-1}$  
+
+17. $(A \neq \emptyset  \land B \neq \emptyset) \implies A \cap B \neq \emptyset$  
+
+18. $|x|=\begin{cases} x & \text{si } x \geq 0, \\-x & \text{si } x < 0.\end{cases}$  
+
+19. $\log_a (xy) = \log_a x + \log_a y$  
+
+20. $lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$  
+
+21. $a_n = a_{n-1} + a_{n-2}$  
+
+22. $\displaystyle\int_{0}^{1} x^n \, dx = \frac{1}{n+1}$  
+
+23. $\nabla f(x, y) =\begin{bmatrix}\frac{\partial f}{\partial x} \\\frac{\partial f}{\partial y}\end{bmatrix}$  
+
+24. $\int e^x \cos x \, dx = e^x \sin x + C$  
+
+25. $\text{Var}(X) = \mathbb{E}[X^2] - (\mathbb{E}[X])^2$  
+
+26. $y'' + 4y' - 5y = \sin(x)$  
+
+27. $x(t)= A\cos(\omega t+\phi)$  
+
+28. $\mathbb{P}(X \geq k) = \sum_{x=k}^\infty \mathbb{P}(X = x)$  
+
+29. $F(x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^x e^{-t^2 / 2} \, dt$  
+
+30. $rank(A)=dim(Col(A))$  
+
+# Práctica #3: Código Programable  
+
+## Introducción  
+Este análisis utiliza la base de datos USArrests que contiene datos sobre arrestos por asalto, asesinato, violación y el porcentaje de población urbana en cada estado de Estados Unidos en 1973.  
+
+## Cargar Datos  
+
+Primero, cargamos la base de datos USArrests.
+
+
+```{r}
+#Cargar los datos
+data("USArrests")
+```
+
+## Descripción de los Datos  
+
+Veamos los datos para entender su estructura  
+
+```{r}
+#Mostrar la base de datos
+USArrests
+```
+El dataset contiene 50 filas (una por cada estado) y 4 columnas:  
+
+* Murder: tasa de asesinatos (por 100,000 habitantes).  
+
+* Assault: número de asaltos  
+
+* UrbanPop: porcentaje de población urbana.  
+
+* Rape: tasa de violaciones (por 100,000 habitantes).  
+
+## Resumen Estadístico  
+
+A continuación, un resumen estadístico de los datos.  
+
+```{r}
+# Resumen estadístico
+summary(USArrests)
+```
+## Analisis de Correlación  
+
+Vea la correlación entre las variables.
+```{r}
+# Calcular la matriz de correlación
+cor_matrix <- cor(USArrests)
+cor_matrix
+```
+
+## Visualización de Datos  
+
+### Histogramas  
+
+Mostraremos histogramas para cada una de las variables.
+
+```{r}
+#Histogramas
+par(mfrow= c(2,2))
+hist(USArrests$Murder, main = "Histograma de Asesinatos", xlab = "Asesinatos")
+hist(USArrests$Assault, main = "Histograma de Asaltos", xlab = "Asaltos")
+hist(USArrests$Murder, main = "Histograma de Población Urbana", xlab = "Población Urbana (%)")
+hist(USArrests$Rape, main = "Histograma de Violaciones", xlab = "Violaciones")
+```
+
+### Boxplots  
+
+Generemos boxplots para visualizar la dispersión y posibles outliners.  
+```{r}
+par(mfrow = c(2,2))
+boxplot(USArrests$Murder, main = "Boxplot de Asesinatos", ylab = "Asesinatos")
+boxplot(USArrests$Assault, main = "Boxplot de Asaltos", ylab = "Asaltos")
+boxplot(USArrests$UrbanPop, main = "Boxplot de Población Urbana", ylab = "Población Urbana(%)")
+boxplot(USArrests$Rape, main = "Boxplot de Vioolaciones", ylab = "Violaciones")
+```  
+
+
+### Pairs plot  
+
+Un pairs plot para ver las relaciones entre variables  
+
+```{r}
+pairs(USArrests, main = "Pairs Plot de USArrests")
+```  
+
+### Mapa de Calor de Correlación  
+
+Visualicemos la matriz de correlación con un mapa de calor.  
+
+```{r}
+# Cargar la librería ggplot2 y reshape2 para el mapa de calor
+library(ggplot2)
+library(reshape2)
+
+# Transformar la matriz de correlación en formato largo 
+melted_cor_matrix <- melt(cor_matrix)
+
+#Crear el mapa de calor
+ggplot(data= melted_cor_matrix, aes(x = Var1, y = Var2, fill = value))+
+  geom_tile()+
+  scale_fill_gradient2(low="blue",high="red",mid="white",midpoint = 0, limit = c(-1,1), space ="Lab",name="Correlación")+
+  theme_minimal()+
+  theme(axis.text.x = element_text(angle= 45, vjust = 1,
+                                   size = 12, hjust = 1)) +
+  coord_fixed()
+```
+
+
+## Conclusiones  
+
+El análisis de los datos de <code>USArrests</code> revela varias obervaciones interesantes:  
+
+### Distribución de las Variables  
+
+* La tasa de asesinatos(<code>Murder</code>) varía significativamente entre los estados, con algunos estados con tasas mucho más altas que otros.  
+
+* El número de asaltos(<code>Assault</code>) muestra una mayor variabilidad comparada con otras variables.  
+
+* El porcentaje de población urbana (<code>UrbanPop</code>) está relativamente bien distribuido, con la mayoría de los estados teniendo entre 30% y 80% de población urbana.  
+
+* La tasa de violaciones (<code>Rape</code>) también muestra considerable variabilidad.
+
+### Resumen Estadístico  
+
+* Las medias y medianas de las variables indican que hay estados con valores extremadamente altos que influyen en la media.  
+
+* Los datos presentan una distersión considerable, lo cual es evidente en los rangos intercuartílicos y los valores máximos y mínimos.  
+
+### Correlaciones  
+
+* Existe una fuerte correlación positiva entre <code>Murder</code> y <code>Assault</code> (0.80), lo que sugiere que los estados con las altas tasas de asesinatos también tienden a tener un alto número de asaltos. 
+ 
+
+* La correlación entre <code>UrbanPop</code> y las otras variables es más débil, lo que indica que la proporción de la población urbana no está estrechamente relacionada con las tasas de crímenes violentos.  
+
+* <code>Rape</code> también muestra una correlación positiva moderada con <code>Assault</code> (0.56) y <code>Murder</code> (0.68).  
+
+### Visualizaciones  
+
+* Los histogramas y boxplots confirman la variabilidad y la presencia de posibles ouliers en las variables de crimen.  
+
+* El pairs plot y el mapa de calor de correlación facilitan la identificación de relaciones entre variables, destacando las fuertes correlaciones ya mencionadas.  
+
+Este análisis inicial proporciona una visión general de las tasas de crimen y la urbanización en los Estados Unidos en 1973. Para profundizar en el análisis, se podrían explorar más a fondo las relaciones causales y realizar un análisis espacial para ver como la geografía afecta las tasas de crimen.  
+
+
+
+
+
+
+
+
+
+

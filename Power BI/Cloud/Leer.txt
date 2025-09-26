@@ -1,0 +1,27 @@
+a. 📊 Cantidad de solicitudes totales por estatus de aprobación
+Según el gráfico circular, los estatus están distribuidos equitativamente:
+- Pagado: 25%
+- En revisión: 25%
+- Aprobado: 25%
+- Solicitado: 25%
+
+b. 💰 Montos financieros
+- Monto solicitado por los aprobados: No se especifica directamente en el dashboard, pero el monto total solicitado es 10,92 millones.
+- Monto pagado: 1,76 millones
+- Monto pendiente: 1,82 millones
+
+
+d. 📅 Cantidad de solicitudes por mes y año
+El gráfico de barras muestra el recuento de solicitudes (id) desde enero 2022 hasta abril 2023, con valores mensuales que oscilan entre aproximadamente 20 y 40 solicitudes por mes. Esto indica una actividad constante durante ese período.
+
+
+💼 Monto Pagado por Tipo de Garantía
+Según el gráfico de barras del dashboard, el monto pagado se distribuye entre los distintos tipos de garantía de la siguiente manera:
+
+Tipo de garantía: Monto pagado
+Vehiculo:616.62 mil
+Joyas:598.20 mil
+Propiedad:550.41 mil
+
+ Observación:
+El tipo de garantía con mayor monto pagado corresponde a vehículos, seguido muy de cerca por joyas y luego propiedades. Esta distribución puede reflejar preferencias del cliente, facilidad de liquidación o políticas internas de aprobación.
