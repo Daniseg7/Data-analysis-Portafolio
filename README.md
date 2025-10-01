@@ -1,0 +1,1 @@
+Data analysis Portafolio describe los proyectos de ETL en la ciencia de datos con proyectos en SQl, Python, Excel, R, Looker studio, Power BI y Knime que permiten el proceso de analítica de datos para inferencia estadística, entrenamiento de modelos y machine learning.
